@@ -22,7 +22,8 @@ namespace Codility
             //FrogRiverOne.Run();
             //Niobium2019FlippingMatrix.Run();
             //new Final().Run();
-            new MaxCounters().Run();
+            //new MaxCounters().Run();
+            new PassingCars().Run();
 
 
 
