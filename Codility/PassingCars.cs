@@ -14,9 +14,28 @@ namespace Codility
             Console.WriteLine($"Number of passing cars is {result}");
         }
 
-
-       
         public int solution(int[] A)
+        {
+            List<int> list = A.ToList();
+            List<int> indexes = findIndexes(list);
+            return 0;
+        }
+
+        private List<int> findIndexes(List<int> list)
+        {
+            int occurences = list.Count(x => x == 0);
+            List<int> indexes = new List<int>();
+            for (int i = 0; i < occurences; i++)
+            {
+                int index = list.IndexOf(0);
+                indexes.Add(index);
+                list.RemoveAt(index);
+            }
+
+            return null;
+        }
+
+        public int solution2(int[] A)
         {
             int result = 0;
 

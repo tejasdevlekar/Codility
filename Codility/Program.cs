@@ -23,7 +23,9 @@ namespace Codility
             //Niobium2019FlippingMatrix.Run();
             //new Final().Run();
             //new MaxCounters().Run();
-            new PassingCars().Run();
+            //new PassingCars().Run();
+            //new CountDiv().Run();
+            new YearOfTheRabbit().Run();
 
 
 
