@@ -44,6 +44,7 @@ namespace Codility.Challenges
                         Count = -1;
                         break;
                     }
+                    break;
                 }
             }
 
