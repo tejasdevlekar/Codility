@@ -25,7 +25,8 @@ namespace Codility
             //new MaxCounters().Run();
             //new PassingCars().Run();
             //new CountDiv().Run();
-            new YearOfTheRabbit().Run();
+            //new YearOfTheRabbit().Run();
+            new Distinct().Run();
 
 
 
